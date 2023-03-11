@@ -1,0 +1,58 @@
+body {
+ background-color: #4E6E81;
+
+}
+.container {
+    justify-content: center;
+
+    text-align: center;
+    
+}
+
+.key {
+    outline: none;
+    border: 10px solid #404B69;
+    line-height: 2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    font-size: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #F5FFC9;
+    padding: 60px;
+}
+
+.r {
+    background-color: red;
+}
+
+.b {
+    background-color: blue;
+}
+
+.g {
+    background-color: green;
+}
+
+.y {
+    background-color: yellow;
+}
+
+.toggled {
+    opacity: 0.3;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.gameEnd {
+    background-color: red;
+}
